@@ -1,0 +1,9 @@
+# config/cucumber.yml
+##YAML Template
+---
+default: --profile noti6p_report
+html_report: --format pretty --format html --out=features_report.html
+noti6p_report: --format pretty --format html -t ~@i6p --out=features_report.html
+i6p: --format pretty --format html --out=features_report.html
+
+bvt: --tags @bvt
